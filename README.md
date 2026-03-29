@@ -38,7 +38,9 @@ Navigate to the project directory and run the controller:
 ```bash
 python main_runner.py
 
-3. Understanding the Output
+
+
+# 3. Understanding the Output
 
     S : Start Point (Logistics Dock)
 
