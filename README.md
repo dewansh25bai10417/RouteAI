@@ -1,59 +1,63 @@
 # RouteAI
-🛸 Autonomous Logistics Drone: AI Navigation System
+# 🛸 NovaRoute: AI Logistics Navigation System
 
-A multi-layered AI agent designed to solve high-frequency pathfinding problems in industrial warehouse environments. This system implements Informed Search (A)* to achieve a rational, cost-effective navigation path from a Start node (Charging Dock) to a Goal node (Package Drop-off).
-🏗️ System Architecture
+A modular AI-driven pathfinding system designed for industrial warehouse optimization. This project simulates a **Goal-Based Rational Agent** that navigates a 10x10 grid to find the most efficient route from a Charging Dock to a Delivery Target.
 
-This project is built using a Modular Design Pattern, separating the environment logic from the heuristic search engine to ensure scalability and clean code standards.
-File	Component	Responsibility
-config.py	Global Settings	Defines grid dimensions, static obstacles, and coordinate constants.
-warehouse_env.py	Environment Layer	Manages the 2D grid state, obstacle mapping, and move validation.
-drone_engine.py	Heuristic Engine	Implements the A* algorithm and Manhattan Distance math.
-main_runner.py	System Controller	Orchestrates the simulation, triggers the solver, and renders the output.
-🔬 Mathematical Framework
+---
 
-The agent operates as a Goal-Based Rational Agent. It evaluates every possible move using the weighted cost function:
-f(n)=g(n)+h(n)
+## 🧠 System Architecture
+This project follows a professional **Modular Design Pattern**, separating environment logic from the search engine.
 
-    g(n): The exact cost (steps taken) from the Start point to the current node n.
+| File | Component | Responsibility |
+| :--- | :--- | :--- |
+| `config.py` | **Configuration** | Defines grid size, obstacle coordinates, and start/goal points. |
+| `warehouse_env.py`| **Environment** | Manages the grid state and validates agent movement. |
+| `drone_engine.py` | **AI Engine** | Implements the **A* Search Algorithm** and Manhattan Heuristics. |
+| `main_runner.py`  | **Controller** | The execution script that runs the simulation and renders the map. |
 
-    h(n): The Heuristic—an estimated "Manhattan Distance" to the Goal, calculated as:
-    ∣x1​−x2​∣+∣y1​−y2​∣
+---
 
-By combining these, the drone avoids "blind" searching (like BFS) and instead prioritizes nodes that mathematically minimize the total trip distance.
-📊 Technical Results
+## 🔬 How the AI "Thinks"
+The agent utilizes **Informed Search (A*)** to prioritize paths that mathematically minimize travel distance. It evaluates every move using the function:
 
-    Algorithm Performance: Informed Search (A*).
+$$f(n) = g(n) + h(n)$$
 
-    Search Space: 10x10 Grid (100 discrete nodes).
+* **$g(n)$**: The actual cost (steps) taken from the Start to the current position.
+* **$h(n)$**: The **Manhattan Distance** heuristic, estimating the remaining distance to the Goal:
+  $$|x_{goal} - x_n| + |y_{goal} - y_n|$$
 
-    Obstacle Handling: Static collision avoidance for non-passable shelf units (#).
+---
 
-    Path Optimality: The system guaranteed the shortest path with 100% accuracy during testing.
+## 🚀 Getting Started
 
-🚀 Deployment & Usage
-1. Installation
+### 1. Prerequisites
+Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) are required as this uses standard Python data structures.
 
-No external libraries (like numpy or pandas) are required. The system runs on pure Standard Python 3.x.
-2. Execution
-
-Run the system controller to start the simulation:
-Bash
-
+### 2. Running the Simulation
+Navigate to the project directory and run the controller:
+```bash
 python main_runner.py
 
-3. Output Map Key
+3. Understanding the Output
 
-    S : Start Position (Logistics Dock)
+    S : Start Point (Logistics Dock)
 
-    G : Goal Position (Delivery Target)
+    G : Goal Point (Package Target)
 
-    # : Warehouse Shelves (Obstacles)
+    # : Static Obstacles (Warehouse Shelves)
 
-    * : Calculated Optimal Drone Path
+    * : The Optimal Path calculated by the AI
 
-Developer: [Friend's Name]
+📊 Project Observations
+
+    Optimality: The agent consistently finds the shortest path while avoiding all 11+ static obstacles.
+
+    Efficiency: By using a heuristic, the agent reduces the search space significantly compared to uninformed methods like BFS.
+
+    Rationality: The agent demonstrates "perfect rationality" within this discrete, static environment.
+
+Developed by: [Friend's Name]
 
 Reg No: [Friend's Registration Number]
 
-Course: Introduction to Artificial Intelligence (AI)
+Course: Introduction to AI | B.Tech AIML
