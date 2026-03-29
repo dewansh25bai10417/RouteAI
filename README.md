@@ -1,5 +1,5 @@
 # RouteAI
-# 🛸 NovaRoute: AI Logistics Navigation System
+# 🛸 RouteAI: AI Logistics Navigation System
 
 A modular AI-driven pathfinding system designed for industrial warehouse optimization. This project simulates a **Goal-Based Rational Agent** that navigates a 10x10 grid to find the most efficient route from a Charging Dock to a Delivery Target.
 
