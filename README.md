@@ -30,15 +30,15 @@ $$f(n) = g(n) + h(n)$$
 
 ## Getting Started
 
-### 1. Prerequisites
+## 1. Prerequisites
 Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) are required as this uses standard Python data structures.
 
-### 2. Running the Simulation
+## 2. Running the Simulation
     Navigate to the project directory and run the controller:
     python main_runner.py
     Making sure all the files are in the same folder
 
-# 3. Understanding the Output
+## 3. Understanding the Output
 
     S : Start Point (Logistics Dock)
 
@@ -48,7 +48,7 @@ Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) a
 
     * : The Optimal Path calculated by the AI
 
-Project Observations
+# Project Observations
 
     Optimality: The agent consistently finds the shortest path while avoiding all 11+ static obstacles.
 
