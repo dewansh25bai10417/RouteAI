@@ -17,7 +17,7 @@ This project follows a professional **Modular Design Pattern**, separating envir
 
 ---
 
-## 🔬 How the AI "Thinks"
+## How the AI "Thinks"
 The agent utilizes **Informed Search (A*)** to prioritize paths that mathematically minimize travel distance. It evaluates every move using the function:
 
 $$f(n) = g(n) + h(n)$$
@@ -48,7 +48,7 @@ Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) a
 
     * : The Optimal Path calculated by the AI
 
-# Project Observations
+## Project Observations
 
     Optimality: The agent consistently finds the shortest path while avoiding all 11+ static obstacles.
 
