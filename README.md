@@ -35,9 +35,7 @@ Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) a
 
 ### 2. Running the Simulation
 Navigate to the project directory and run the controller:
-```bash
 python main_runner.py
-
 
 
 # 3. Understanding the Output
