@@ -35,8 +35,10 @@ Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) a
 
 ### 2. Running the Simulation
 Navigate to the project directory and run the controller:
+
 python main_runner.py
 
+Making sure all the files are in the same folder
 
 # 3. Understanding the Output
 
