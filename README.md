@@ -1,11 +1,11 @@
 # RouteAI
-# 🛸 RouteAI: AI Logistics Navigation System
+#  RouteAI: AI Logistics Navigation System
 
 A modular AI-driven pathfinding system designed for industrial warehouse optimization. This project simulates a **Goal-Based Rational Agent** that navigates a 10x10 grid to find the most efficient route from a Charging Dock to a Delivery Target.
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 This project follows a professional **Modular Design Pattern**, separating environment logic from the search engine.
 
 | File | Component | Responsibility |
@@ -28,17 +28,15 @@ $$f(n) = g(n) + h(n)$$
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) are required as this uses standard Python data structures.
 
 ### 2. Running the Simulation
-Navigate to the project directory and run the controller:
-
-python main_runner.py
-
-Making sure all the files are in the same folder
+    Navigate to the project directory and run the controller:
+    python main_runner.py
+    Making sure all the files are in the same folder
 
 # 3. Understanding the Output
 
@@ -50,7 +48,7 @@ Making sure all the files are in the same folder
 
     * : The Optimal Path calculated by the AI
 
-📊 Project Observations
+Project Observations
 
     Optimality: The agent consistently finds the shortest path while avoiding all 11+ static obstacles.
 
