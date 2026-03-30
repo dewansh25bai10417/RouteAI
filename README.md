@@ -61,3 +61,10 @@ Developed by: [Friend's Name]
 Reg No: [Friend's Registration Number]
 
 Course: Introduction to AI | B.Tech AIML
+<img width="1056" height="433" alt="Screenshot 2026-03-30 152012" src="https://github.com/user-attachments/assets/6160e1a1-6e7f-448b-bf52-ffa9788dbff5" />
+<img width="1083" height="575" alt="Screenshot 2026-03-30 151954" src="https://github.com/user-attachments/assets/9c6ac9bf-d59e-4efd-9fc9-0981a72dbf6b" />
+<img width="1101" height="589" alt="Screenshot 2026-03-30 151948" src="https://github.com/user-attachments/assets/bc56da78-1eb9-4874-8e2d-923c0e1e3f14" />
+<img width="1084" height="582" alt="Screenshot 2026-03-30 151941" src="https://github.com/user-attachments/assets/c366d92f-cd10-4363-8a58-fadbf61681ac" />
+<img width="1095" height="578" alt="Screenshot 2026-03-30 151926" src="https://github.com/user-attachments/assets/a9450f5e-35ea-440e-a5d9-acae2e3abc98" />
+
+
