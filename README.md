@@ -34,9 +34,10 @@ $$f(n) = g(n) + h(n)$$
 Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) are required as this uses standard Python data structures.
 
 ## 2. Running the Simulation
+    Making sure all the files are in the same folder
     Navigate to the project directory and run the controller:
     python main_runner.py
-    Making sure all the files are in the same folder
+    
 
 ## 3. Understanding the Output
 
