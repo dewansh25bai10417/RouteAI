@@ -57,11 +57,11 @@ Ensure you have **Python 3.x** installed. No external libraries (like `numpy`) a
 
     Rationality: The agent demonstrates "perfect rationality" within this discrete, static environment.
 
-Developed by: [Friend's Name]
+Developed by: Dewansh Kejriwal
 
-Reg No: [Friend's Registration Number]
+Reg No: 25BAI10417
 
-Course: Introduction to AI | B.Tech AIML
+Course: Introduction to AI | B.Tech CSE (AI/ML)
 <img width="1056" height="433" alt="Screenshot 2026-03-30 152012" src="https://github.com/user-attachments/assets/6160e1a1-6e7f-448b-bf52-ffa9788dbff5" />
 <img width="1083" height="575" alt="Screenshot 2026-03-30 151954" src="https://github.com/user-attachments/assets/9c6ac9bf-d59e-4efd-9fc9-0981a72dbf6b" />
 <img width="1101" height="589" alt="Screenshot 2026-03-30 151948" src="https://github.com/user-attachments/assets/bc56da78-1eb9-4874-8e2d-923c0e1e3f14" />
